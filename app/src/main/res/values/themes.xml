@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Ex92VideoViewAndExoplayer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    전체화면 액티비티 테마-->
+    <style name="FullScreenTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+<!--        상태표시줄 없애는 스타일은 없음  대신 액티비티가 전체 사이즈가 되도록 하여 상태표시줄이 가려지도록-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
